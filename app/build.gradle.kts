@@ -54,6 +54,8 @@ dependencies {
     implementation(libs.retrofit2.kotlinx.seralizaton.converter)
     implementation(libs.kotliny.seralization.json1)
     implementation(libs.coil.image.loader)
+    implementation(libs.okhttp3)
+    implementation(libs.coil.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
